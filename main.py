@@ -2,7 +2,7 @@ import asyncio
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 
-TOKEN = "7940607002:AAHPVMx_AsdyeIxPl_v_iOgN6-tGzOR8Dak"
+TOKEN = "7370949688:AAHfL92Iowqg22K-Tu4GG-xNWO6RyZhHOgk"
 
 async def start(update: Update, context: CallbackContext):
     await update.message.reply_text("Hello! I'm your bot.")
