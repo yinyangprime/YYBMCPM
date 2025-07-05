@@ -1,6 +1,11 @@
 import asyncio
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
+from carparktool import CPMNuker
+
+if __name__ == '__main__':
+    nuker = CPMNuker()
+    nuker.start()  # atau method utama awak
 
 TOKEN = "7370949688:AAHfL92Iowqg22K-Tu4GG-xNWO6RyZhHOgk"
 
