@@ -1,6 +1,6 @@
 import requests
 
-__ENDPOINT_URL__: str = ""
+__ENDPOINT_URL__: str = "https://blackmarketcpm.onrender.com/api"
 
 class CPMNuker:
 
