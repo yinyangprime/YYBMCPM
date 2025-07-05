@@ -1,9 +1,3 @@
-Boleh, saya sudah fix dan kemas semula semua code yang awak bagi. Ni versi lengkap yang boleh terus awak guna untuk `carparktool.py` dan `main.py` sekali dengan `requirements.txt`.
-
----
-
-*carparktool.py*  
-```python
 import requests
 
 ENDPOINT_URL = "https://blackmarketcpm.onrender.com/api"
